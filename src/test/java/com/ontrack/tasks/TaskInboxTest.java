@@ -21,7 +21,7 @@ class TaskInboxTest {
         
         // Assert - verify the result
         assertNotNull(tasks, "Should return an array, not null");
-        assertEquals(2, tasks.length, "Student should have 2 submitted tasks");
+        assertEquals(999, tasks.length, "Student should have 2 submitted tasks");  // ← CHANGED 2 TO 999 (THIS WILL FAIL)
         assertEquals("5.1P - Unit Test Standards", tasks[0].getName());
         assertEquals("Submitted", tasks[0].getStatus());
     }
