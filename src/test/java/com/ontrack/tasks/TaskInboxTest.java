@@ -1,4 +1,5 @@
 // TDD implementation for SIT333 Task 9.1P - CI setup in progress
+//success mail trigger
 package com.ontrack.tasks;
 
 import static org.junit.jupiter.api.Assertions.*;
